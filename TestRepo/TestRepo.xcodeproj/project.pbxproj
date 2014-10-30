@@ -14,6 +14,7 @@
 		B7AF04141A023E7D00A556D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AF04131A023E7D00A556D7 /* Images.xcassets */; };
 		B7AF04171A023E7D00A556D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7AF04151A023E7D00A556D7 /* LaunchScreen.xib */; };
 		B7AF04231A023E7D00A556D7 /* TestRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF04221A023E7D00A556D7 /* TestRepoTests.m */; };
+		B7AF042E1A024B3600A556D7 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF042D1A024B3600A556D7 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B7AF041C1A023E7D00A556D7 /* TestRepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AF04211A023E7D00A556D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7AF04221A023E7D00A556D7 /* TestRepoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRepoTests.m; sourceTree = "<group>"; };
+		B7AF042C1A024B3600A556D7 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		B7AF042D1A024B3600A556D7 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B7AF04131A023E7D00A556D7 /* Images.xcassets */,
 				B7AF04151A023E7D00A556D7 /* LaunchScreen.xib */,
 				B7AF04061A023E7D00A556D7 /* Supporting Files */,
+				B7AF042C1A024B3600A556D7 /* TestViewController.h */,
+				B7AF042D1A024B3600A556D7 /* TestViewController.m */,
 			);
 			path = TestRepo;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				B7AF040F1A023E7D00A556D7 /* ViewController.m in Sources */,
 				B7AF040C1A023E7D00A556D7 /* AppDelegate.m in Sources */,
+				B7AF042E1A024B3600A556D7 /* TestViewController.m in Sources */,
 				B7AF04091A023E7D00A556D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
